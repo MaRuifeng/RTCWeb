@@ -5,7 +5,7 @@ Description
 
 This RTC Web Proxy wraps up the plain Java client libraries of RTC (*https://rsjazz.wordpress.com/2013/03/20/understanding-and-using-the-rtc-java-client-api/*) in an IBM WebSphere Application and exposes APIs for RTC work item query/create/update/close. 
 
-The benefits including 
+The benefits include 
 1. Custom APIs can be easily constructed, exposed and managed to obtain RTC client service in an automated manner
 2. The running WAS application serves as a running RTC client that can hold a login session for faster access to the work items
 
