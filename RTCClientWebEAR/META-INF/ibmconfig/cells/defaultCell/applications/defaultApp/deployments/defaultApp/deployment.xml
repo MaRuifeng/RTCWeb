@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appdeployment:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:appdeployment="http://www.ibm.com/websphere/appserver/schemas/5.0/appdeployment.xmi" xmi:id="Deployment_1450441171001">
+  <deployedObject xmi:type="appdeployment:ApplicationDeployment" xmi:id="ApplicationDeployment_1450441171001" startingWeight="10" warClassLoaderPolicy="SINGLE">
+    <modules xmi:type="appdeployment:WebModuleDeployment" xmi:id="WebModuleDeployment_1450441171001" startingWeight="10000" uri="RTCClientWeb.war"/>
+    <modules xmi:type="appdeployment:EJBModuleDeployment" xmi:id="EJBModuleDeployment_1450441171001" startingWeight="5000" uri="RTCClientEJB.jar"/>
+    <classloader xmi:id="Classloader_1450441171001" mode="PARENT_LAST"/>
+  </deployedObject>
+</appdeployment:Deployment>

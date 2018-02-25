@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="RTCClientWebEAR">
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+        <dependent-module archiveName="RTCClientWeb.war" deploy-path="/" handle="module:/resource/RTCClientWeb/RTCClientWeb">
+            <dependent-object>Module_1450161543185</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="RTCClientEJB.jar" deploy-path="/" handle="module:/resource/RTCClientEJB/RTCClientEJB">
+            <dependent-object>Module_1450349712920</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
